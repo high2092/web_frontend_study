@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #40514E;
 }
 
 div {
@@ -8,22 +11,41 @@ div {
 
 h1 {
     margin-top: 0;
+    font-size: 5.625rem; /* root em */
+    /* width: fit-content; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #66BFBF
+}
+
+h3, a {
+    color: #11999E
+}
 .top-container {
-    width: 200px;
-    height: 200px;
     background-color: #e4f9f5;
-    border: solid 10px;
-    padding: 20px;
+    /* border: solid 10px; */
+    padding-top: 100px;
+    position: relative;   
 }
 
-.middle-container {
+/* .middle-container {
     width: 200px;
     height: 200px;
     background-color: antiquewhite;
     border: solid 20px;
     margin-left: 260px;
+    position: absolute;
+    top: 0;
 }
 
 .bottom-container {
@@ -32,4 +54,111 @@ h1 {
     background-color: cadetblue;
     border: solid 10px;
     margin-left: 500px;
+}
+
+.bottom-container2 {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    border: solid 10px;
+    margin-left: 500px;
+    position: absolute;
+    top: 0;
+    right: 200px;
+} */
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: fit-content;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row p {
+    width: 50em;
+}
+
+.think-img {
+    width: 12rem;
+    float: left;
+    margin-right: 2rem;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 2rem;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 60px auto;
 }
